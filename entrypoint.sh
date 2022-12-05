@@ -30,6 +30,9 @@ if echo $INPUT_POPULATE | grep -iqF true; then
 fi
 
 
+cd $INPUT_DIR
+
+
 # Print command
 echo "tb --token "${TOKEN}" --host "${HOST}" push ${FORCE} ${NOCHECK} ${POPULATE}"
 tb --token "${TOKEN}" --host "${HOST}" push ${FORCE} ${NOCHECK} ${POPULATE}

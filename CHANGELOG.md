@@ -6,12 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## [1.3.1] - 2022-12-05
+### Added 
+- Add support for sub dirs
+
 ## [1.3] - 2022-12-05
 ### Added 
-- [#1] Add support for `no-check` flag
+- Add support for `no-check` flag
 
 ### Removed 
-- [#1] Removed check for updated files
+- Removed check for updated files
 
 ## [1.2.0] - 2022-11-05
 ### Added 

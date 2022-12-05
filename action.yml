@@ -27,6 +27,11 @@ inputs:
     required: false
     default: false
 
+  populate:
+    description: Run TB inside sub-dir
+    required: false
+    default: "./"
+
 runs:
   using: docker
   image: Dockerfile
