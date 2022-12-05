@@ -17,6 +17,11 @@ inputs:
     required: false
     default: true
 
+  nocheck:
+    description: Flag to skip endpoint checks
+    required: false
+    default: true
+
   populate:
     description: Populate materialized views with existing data
     required: false
