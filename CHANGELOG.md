@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## [1.3.3] - 2022-12-05
+### Fixed 
+- Subdirectory bug
+
 ## [1.3.1] - 2022-12-05
 ### Added 
 - Add support for sub dirs

@@ -30,7 +30,7 @@ if echo $INPUT_POPULATE | grep -iqF true; then
 fi
 
 
-cd $INPUT_DIR
+cd $INPUT_DIRECTORY
 
 
 # Print command
