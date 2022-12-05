@@ -31,6 +31,6 @@ fi
 
 
 # Print command
-echo "tb --token ${TOKEN} --host "${HOST}" push --push-deps ${FORCE} $file ${POPULATE}"
-tb --token "${TOKEN}" --host "${HOST}" push --push-deps ${FORCE} ${NOCHECK} "$file" ${POPULATE}
+echo "tb --token "${TOKEN}" --host "${HOST}" push ${FORCE} ${NOCHECK} ${POPULATE}"
+tb --token "${TOKEN}" --host "${HOST}" push ${FORCE} ${NOCHECK} ${POPULATE}
 
