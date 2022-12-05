@@ -27,7 +27,7 @@ inputs:
     required: false
     default: false
 
-  populate:
+  directory:
     description: Run TB inside sub-dir
     required: false
     default: "./"
