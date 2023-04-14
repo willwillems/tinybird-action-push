@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## Unreleased
+## [1.3.4] - 2023-04-14
+- Merge upstream
 
 ## [1.3.3] - 2022-12-05
 ### Fixed 
@@ -21,6 +23,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed 
 - Removed check for updated files
 
+## [1.2.1] - 2023-03-29
+### Fixed
+- Fix GitHub `detected dubious ownership in repository at '/github/workspace'` error
+
+### Added 
+- [#1] Add support for `host` parameter
 ## [1.2.0] - 2022-11-05
 ### Added 
 - [#1] Add support for `host` parameter
